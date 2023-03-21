@@ -1,15 +1,15 @@
-#include<stdio.h>
+#include "main.h"
 /**
-*print_alphate - function that prints alphate in lowercase
+* print_alphate - function that prints alphate in lowercase
 *
 * Return - Always 0
 */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 char ch;
-for(ch='a'; ch<='z'; ch++)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-putchar(ch);
+_putchar(ch);
 }
 printf("\n");
 return (0);
