@@ -8,7 +8,7 @@
 int main(void)
 {
 int tan;
-unsigned long fib1 = 0, fib2 = 1, sum;
+unsigned long fibo1 = 0, fibo2 = 1, sum;
 for (tan = 0; tan < 50; tan++)
 {
 sum = fibo1 + fibo2;
