@@ -1,11 +1,11 @@
-#include<stdio.h>
+#include "main.h"
 /**
-* main - Entry point
+* main - check the code
 *
 * Return: 0 (Success)
 */
 int main(void)
 {
-printf("_putchar/n");
+printf("0-putchar.c/n");
 return (0);
 }
