@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* main - program  
+* main - fibonacci ❤️
 *
-* Purpose - learn to code
+* Purpose - no hardcode
 *
 * Return:  (Success)
 */
