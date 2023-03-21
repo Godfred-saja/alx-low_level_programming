@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
-* main -Entry point
+*print_alphate - function that prints alphate in lowercase
 *
-* Return: 0 (Success)
+* Return - Always 0
 */
-int main(void)
+void print_alphabet(void);
 {
 char ch;
 for(ch='a'; ch<='z'; ch++)
