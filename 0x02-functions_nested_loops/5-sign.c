@@ -5,7 +5,7 @@
 * @n:  prints the sign of a number.
 *
 * Return: 1 and prints + if n is greater than zero
-* and 0 and prints 0 if n is zero 
+* and 0 and prints 0 if n is zero
 * and -1 and prints - if n is less than zero
 */
 int print_sign(int n)
