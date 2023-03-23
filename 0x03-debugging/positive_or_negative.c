@@ -1,4 +1,7 @@
 #include "main.h"
+/**
+* main - Entry point
+*/
 
 void positive_or_negative(int i)
 {
