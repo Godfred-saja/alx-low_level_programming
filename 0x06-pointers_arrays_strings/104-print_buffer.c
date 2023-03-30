@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* print_buffer - function that prints a buffer
+* print_buffer - prints buffer
 * @b: buffer
 * @size: size
 * Return: void
@@ -30,7 +30,7 @@ if (i % 2)
 printf(" ");
 }
 }
-for (i = o; i < j; i++)
+for (i = 0; i < j; i++)
 {
 int c = *(b + o + i);
 if (c < 32 || c > 132)
