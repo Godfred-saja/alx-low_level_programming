@@ -1,8 +1,7 @@
 #ifndef FUNCTION_LIKE_MACRO_H
 #define FUNCTION_LIKE_MACRO_H
-
 /**
-* main - function-like macro ABS(x) that compute the absolute value
+* main - function-like macro ABS(x) that compute the absolute value.
 * @X: input
 */
 
