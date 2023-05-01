@@ -13,8 +13,8 @@ size_t codes = 0;
 
 while (h)
 {
-printf("%d\n", h->n);
 codes++;
+printf("%d\n", h->n);
 h = h->next;
 }
 
