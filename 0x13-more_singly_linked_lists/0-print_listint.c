@@ -1,9 +1,10 @@
 #include "lists.h"
 
 /**
-* print_listint - Function that prints all the elements of a list.
-* @h: head of a list.
-* Return: Return numbers of codes.
+* print_listint - prints all the elements of a linked list
+* @h: linked list of type listint_t to print
+*
+* Return: number of codes
 */
 size_t print_listint(const listint_t *h)
 {
@@ -12,8 +13,9 @@ size_t codes = 0;
 while (h)
 {
 printf("%d\n", h->n);
-h = h->next;
 codes++;
+h = h->next;
 }
+
 return (codes);
 }
