@@ -2,7 +2,7 @@
 
 /**
 * print_listint_safe - Function that frees a linked list
-* @h: pointer to the first node in the linked list
+* @head: pointer to the first node in the linked list
 * Return: number of elements in the freed list
 */
 size_t print_listint_safe(const listint_t *head)
